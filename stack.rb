@@ -29,7 +29,7 @@ class Stack
     @stack.length
   end
 
-  def empty
+  def empty?
     @stack.empty?
   end
 
