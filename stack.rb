@@ -15,6 +15,16 @@ class Stack
     @stack.last
   end
 
+  def search(o)
+    index = @stack.find_index o
+
+    if !index
+      return -1
+    else
+      return count - index
+    end
+  end
+
   def count
     @stack.length
   end
