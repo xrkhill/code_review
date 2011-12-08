@@ -30,7 +30,7 @@ class Stack
   end
 
   def empty?
-    @stack.empty?
+    return @stack.empty?
   end
 
   def clear
