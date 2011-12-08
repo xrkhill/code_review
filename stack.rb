@@ -11,7 +11,19 @@ class Stack
     @stack.pop
   end
 
+  def peek
+    @stack.last
+  end
+
   def count
     @stack.length
+  end
+
+  def empty
+    @stack.empty?
+  end
+
+  def clear
+    @stack.clear
   end
 end
